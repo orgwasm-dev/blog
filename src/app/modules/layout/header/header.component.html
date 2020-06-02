@@ -1,0 +1,26 @@
+<nav class="navbar is-light">
+  <div class="navbar-start">
+    <div class="navbar-brand">
+      <a class="navbar-item" routerLink="">
+        {{ title }}
+      </a>
+    </div>
+    <div
+      class="navbar-item breadcrumb has-succeeds-separator is-centered is-hidden-mobile"
+      aria-label="breadcrumbs"
+    >
+      <ul>
+        <li><a href="about-us">Wasm</a></li>
+        <li><a routerLink="">Rust</a></li>
+        <li class="is-active">
+          <a routerLink="" aria-current="page">Getting Started</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="navbar-menu">
+    <div class="navbar-end">
+      <a class="navbar-item" routerLink="about-us">About</a>
+    </div>
+  </div>
+</nav>
