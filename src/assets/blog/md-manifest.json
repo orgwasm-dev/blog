@@ -1,15 +1,44 @@
 {
-  "posts-per-page": 25,
-  "posts": [
+  "metaId": "primary",
+  "postsPerPage": 25,
+  "authors": [
     {
-      "post": "ck5iarbe003jdqks1p7a4nejf.md",
-      "date": "25-01-2020",
-      "author": "supertrampsookah"
+      "name": "supertrampsookah",
+      "twitter": "@supertrampsookah",
+      "image": "authors/supertrampsookah.jpg",
+      "bio": "IoT Supreme"
     },
     {
-      "post": "ck725qdgg06jbdfs1koeysk5h.md",
+      "name": "vasiranrakhan",
+      "twitter": "@vasiranrakhan",
+      "image": "authors/vasiranrakhan.png",
+      "bio": "Giggity"
+    }
+  ],
+  "posts": [
+    {
+      "filename": "ck5iarbe003jdqks1p7a4nejf.md",
+      "date": "25-01-2020",
+      "author": "supertrampsookah",
+      "title": "Welcome to OrgWasm",
+      "description": "Wubalabadubdub! WUBALABADUBDUB!!",
+      "image": "pics/scala.png"
+    },
+    {
+      "filename": "ck725qdgg06jbdfs1koeysk5h.md",
       "date": "29-01-2020",
-      "author": "vasiranrakhan"
+      "author": "vasiranrakhan",
+      "title": "The Good Ol' Orgwasmic Switcheroo",
+      "description": "What are YOU doing in Canada?",
+      "image": "pics/example.png"
+    },
+    {
+      "filename": "ck889q9g000hcdqs1earhic1h.md",
+      "date": "29-01-2020",
+      "author": "vasiranrakhan",
+      "title": "Get your first OrgWasm and Angular",
+      "description": "Kaizoku Ou ni, ore wa naru!",
+      "image": "pics/background-love-home.jpg"
     }
   ]
 }

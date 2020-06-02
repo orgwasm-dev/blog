@@ -1,0 +1,22 @@
+<nav class="navbar is-light is-fixed-top">
+  <div class="navbar-start">
+    <div class="navbar-brand">
+      <a class="navbar-item has-padding-left-3" routerLink="">
+        <span class="is-size-4">{{ title }}</span>
+      </a>
+    </div>
+    <div
+      class="navbar-item breadcrumb has-succeeds-separator is-centered is-hidden-mobile"
+      aria-label="breadcrumbs"
+    >
+      <ul *ngFor="let item of breadcrumbs; let last = last;">
+        <li [class.is-active]="last"><a [routerLink]="item[1]">{{item[0]}}</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="navbar-menu">
+    <div class="navbar-end">
+      <a class="navbar-item has-padding-right-3" routerLink="about-us">ABOUT US</a>
+    </div>
+  </div>
+</nav>
