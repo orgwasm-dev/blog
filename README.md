@@ -1,6 +1,6 @@
 # OrgWasm
 
-To publish to this minimal blog simply add your markdown posts in the `assets/blog` and add the author, filename and post date for those posts that you want to display on the blog in the `md-manifest.json` in the same folder.
+To publish to this minimal blog simply add your markdown posts in the `assets/blog` folder and add some details like the author, filename and post date for those posts that you want to display on the blog in the `md-manifest.json` file in the same folder.
 
 ## Development server
 
