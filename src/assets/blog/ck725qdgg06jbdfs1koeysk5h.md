@@ -1,7 +1,5 @@
-## A Recipe for making a Developer - I
-
 # Amusing our Devs to Death
-
+## A Recipe for making a Developer - I
 Let’s make a developer. I obviously do not have a literal kitchen recipe for you because although a sizeable portion of developers likes getting baked, putting mathematical minds in ovens had disastrous results last century. We now have less brutal ways to prepare and dispose this brave new world’s modern labor force, with or without indentured servitude. Both Huxleyan and Orwellian dystopias can create efficient developers for your latest visionary tech shop. The question is what pedigree of a developer you need, how much they should feel like they should get paid and how easily replaceable you want them to be. Hint: you need to set your story straight for the first two. As for the last, the most easily replaceable ones are either the better ones or the worst of them. 
 
 ## Two Ingredients

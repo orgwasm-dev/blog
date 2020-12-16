@@ -16,7 +16,8 @@ export class BlogPostHeaderComponent extends AbstractPostsComponent implements O
   constructor(private postLoaderService: PostLoaderService) { super(postLoaderService); }
 
   ngOnInit(): void {
-    console.log('BlogPostHeaderComponent -> item', this.item);
+    const file = this.postLoaderService.loadItem(this.item?.filename);
+    console.log('BlogPostHeaderComponent -> item, file', this.item, file);
   }
 
 }

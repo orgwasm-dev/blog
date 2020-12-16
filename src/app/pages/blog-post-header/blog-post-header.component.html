@@ -26,7 +26,12 @@
                 <br>
                 <time class="is-size-7" datetime="2016-1-1">{{item.date}}</time>
               </div>
-              <markdown [data]="mdContent"></markdown>
+              <markdown
+                class="markdown-body"
+                ngPreserveWhitespaces
+                lineNumbers
+                [data]="mdContent"
+              ></markdown>
             </div>
           </div>
         </a>

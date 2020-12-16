@@ -1,4 +1,4 @@
-## Play with Spring and Angular: Getting Started
+# Play with Spring and Angular: Getting Started
 
 In this series, we will explore full stack development with Play, Akka, Spring modules and Angular. This will also help you understand how projects like [nep.work](https://risav.dev/introducing-nepwork-ck5294zz401bvmus1p2oskup0) are built and what one might need to learn or revise to be able to contribute to the [nep.work core stack](https://github.com/nepwork/handbook/blob/master/stack.md) or to any Play and Angular based stack for that matter. 
 

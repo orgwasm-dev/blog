@@ -31,10 +31,23 @@
             "styles": [
               "src/styles.scss",
               "node_modules/simplemde/dist/simplemde.min.css",
-              "node_modules/bulma/css/bulma.css"
+              "node_modules/bulma/css/bulma.css",
+              "node_modules/github-markdown-css/github-markdown.css",
+              "node_modules/prismjs/themes/prism-okaidia.css",
+              "node_modules/katex/dist/katex.min.css",
+              "node_modules/prismjs/plugins/line-numbers/prism-line-numbers.css",
+              "node_modules/prismjs/plugins/line-highlight/prism-line-highlight.css"
             ],
             "scripts": [
-              "node_modules/simplemde/dist/simplemde.min.js"
+              "node_modules/simplemde/dist/simplemde.min.js",
+              "node_modules/marked/lib/marked.js",
+              "node_modules/prismjs/prism.js",
+              "node_modules/prismjs/components/prism-csharp.min.js",
+              "node_modules/prismjs/components/prism-css.min.js",
+              "node_modules/prismjs/plugins/line-numbers/prism-line-numbers.js",
+              "node_modules/prismjs/plugins/line-highlight/prism-line-highlight.js",
+              "node_modules/emoji-toolkit/lib/js/joypixels.min.js",
+              "node_modules/katex/dist/katex.min.js"
             ]
           },
           "configurations": {
